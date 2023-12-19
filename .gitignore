@@ -3,3 +3,5 @@ logs
 # dependencies
 node_modules
 .env
+
+assets/data/*
