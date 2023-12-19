@@ -69,9 +69,9 @@ class customConsole {
         const currentDate = `${day}/${month}/${year} ${hours}:${minutes}:${seconds}`
 
         //tipo da mensagem
-        const error = `[Console/ERROR]:[${currentDate}]: `
-        const warning = `[Console/WARN]:[${currentDate}]: `
-        const info = `[Console/INFO]:[${currentDate}]: `
+        const error = `[${currentDate}] : [Console/ERROR] @ [Client-Main]: `
+        const warning = `[${currentDate}] : [Console/WARN] @ [Client-Main]: `
+        const info = `[${currentDate}] : [Console/INFO] @ [Client-Main]: `
 
         let usarTipo
 
@@ -131,9 +131,9 @@ class customConsole {
         const currentDate = `${day}/${month}/${year} ${hours}:${minutes}:${seconds}`
 
         //tipo da mensagem
-        const error = `[Console/ERROR]:[${currentDate}]: `
-        const warning = `[Console/WARN]:[${currentDate}]: `
-        const info = `[Console/INFO]:[${currentDate}]: `
+        const error = `[${currentDate}] : [Console/ERROR] @ [Client-Main]: `
+        const warning = `[${currentDate}] : [Console/WARN] @ [Client-Main]: `
+        const info = `[${currentDate}] : [Console/INFO] @ [Client-Main]: `
 
         let usarTipo: string
 

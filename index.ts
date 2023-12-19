@@ -29,12 +29,12 @@ global.bot = new wBot()
 dotenv.config()
 
 async function getLatestVersion() {
-    const url1 = "https://raw.githubusercontent.com/wizeshi/wbot-open/main/version.json"
+    const url1 = "https://raw.githubusercontent.com/wizeshi/wbot/main/package.json"
     const response = await fetch(url1)
     const data = await response.text();
     const dataJSON = await JSON.parse(data)
 
-    return dataJSON.currentVersion
+    return dataJSON.version
 }
 
 /* console.clear() */
