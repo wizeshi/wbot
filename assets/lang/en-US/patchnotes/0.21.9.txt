@@ -1,0 +1,23 @@
+New Version: 0.21.9
+Release date: 04/10/2023 (4th October, 2023)
+
+Patch notes:
+
+    Updated to discord.js 14.9.0
+    Updated to discord-player 6.1.1
+    Updated to ytdl-core 4.11.4
+
+    New language settings and backend (currently only availiable on en-US and pt-PT, still not fully implemented).
+    Added a new global settings file (GSF), will make it easier to access general configurations.
+    Fixed a few bugs related to the new library updates.
+    Updated logs function, updated from the DD-MM-YYYY format to YYYY-MM-DD.
+    Replaced the checkChannel function to its new counterpart in the new Global Settings File (GSF).
+    Currently working on documentation for all of the bots ins and outs.
+    
+
+Known Bugs:
+
+    Lyrics command is currently broken (working on a fix)
+    Working on implementing translations to other languages, as well as finishing the translations for current ones.
+    Ban & unban commands still sortof broken?
+    Ready unban function fixed but still a handful of errors in it

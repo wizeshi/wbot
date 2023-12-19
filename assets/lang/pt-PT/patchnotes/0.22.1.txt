@@ -1,0 +1,14 @@
+Nova versão: 0.22.1
+Data de lançamento: 08/10/2023 (8 de Outubro, 2023)
+
+Notas de atualização:
+
+    Flashes da customConsole arranjados.
+    Classe customConsole atualizada, agora a função de update tem dois novos parâmetros: callback e log.
+    A tentar introduzir documentação para as classes, funções e outras coisas do bot.
+    
+
+Bugs Conhecidos:
+
+    A tentar arranjar implementações de outros idiomas, e também a acabar as traduções atuais.
+    Comandos de ban & unban ainda estragados?

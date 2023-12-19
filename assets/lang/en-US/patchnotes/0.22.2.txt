@@ -1,0 +1,14 @@
+New Version: 0.22.2
+Release date: 15/10/2023 (15th October, 2023)
+
+Patch notes:
+
+    New overhauled command system; Now commands can be global (by saving them in the "global" folder) or server-specific (by saving them in a folder with the server id) (this took me 4 hours nonstop to make)
+    Discarded deploy-commands.ts, now at every boot the bot checks and re-deploys the commands, with new language names depending on the selected language.
+    Working on adding documentation for all of the bots classes, functions and other things.
+    
+
+Known Bugs:
+
+    Working on implementing translations to other languages, as well as finishing the translations for current ones.
+    Ban & unban commands still sortof broken?

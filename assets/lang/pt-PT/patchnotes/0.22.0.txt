@@ -1,0 +1,16 @@
+Nova versão: 0.22.0
+Data de lançamento: 05/10/2023 (5 de Outubro, 2023)
+
+Notas de atualização:
+
+    Nova classe "customConsole" adicionada, substitui a função customConsoleLog.
+    Nova função customConsole.update: Em vez de criar novas mensagens na consola, usa uma lista de strings para, durante um intervalo de tempo, atualizar a mensagem.
+    Função de desbanir pela consola completamente arranjada, pelo menos por agora 
+    Comando da letra da arranjado, só precisava de criar novas páginas se o texto fosse muito longo (a sério discord?)
+    
+
+Bugs Conhecidos:
+
+    A tentar arranjar implementações de outros idiomas, e também a acabar as traduções atuais.
+    customConsole.update ás vezes pisca? Se calhar é porque atualiza rápido demais?
+    Comandos de ban & unban ainda estragados?

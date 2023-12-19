@@ -1,0 +1,103 @@
+bot.client.commands.error===Houve um erro ao executar este comando! Tenta novamente mais tarde!-*/*-
+bot.client.commands.patchnotes.description===As últimas atualizacões do bot-*/*-
+bot.client.commands.patchnotes.title===Notas da Atualização-*/*-
+bot.client.settings.channelchanged===Canal selecionado com sucesso!-*/*-
+bot.client.settings.optionchanged===Opção mudada com sucesso!-*/*-
+bot.client.music.nowplaying===Agora a tocar:-*/*-
+bot.client.music.nextsong===A seguir:-*/*-
+bot.client.music.nomusicinqueue===Não existe nenhuma música na fila.-*/*-
+bot.client.music.emptyqueue===As músicas da fila acabaram-*/*-
+bot.client.music.requestedby===Pedido por:-*/*-
+bot.client.music.disconnect.kick===Fui kickado 😡. -*/*-
+bot.client.music.disconnect.inactive===Sai devido a inatividade.-*/*-
+bot.client.special.xmas.happyxmas===Feliz natal-*/*-
+
+
+
+
+
+bot.server.consoleinput.notvalidinput===Opção inválida.-*/*-
+bot.server.consoleinput.returning===A retornar...-*/*-
+bot.server.consoleinput.clearingconsole===A limpar a consola-*/*-
+bot.server.consoleinput.consolecleared===Consola limpa!-*/*-
+bot.server.language.filesreloaded===Ficheiros de idioma ataualizados.-*/*-
+bot.server.specificsettings.unrestrictedconfirmation===QUERES PROCEDER?-*/*-
+bot.server.specificsettings.unrestrictederror===UM COMANDO RESTRITO A DESENVOLVEDORES FOI ACESSADO.-*/*-
+bot.server.commands.nosuchcommand===Não existe nenhum comando chamado-*/*-
+bot.server.commands.error===Houve um erro a usar o comando-*/*-
+bot.server.commands.logging.used===usou o commando-*/*-
+bot.server.commands.logging.arguments===com os seguintes argumentos-*/*-
+bot.server.commands.logging.noarguments===sem argumentos adicionais.-*/*-
+bot.server.commands.logging.commandname===Nome-*/*-
+bot.server.commands.logging.commandtype===Tipo-*/*-
+bot.server.commands.logging.commandvalue===Valor-*/*-
+bot.server.startup.commandloadfinished===Todos os commandos carregados!-*/*-
+bot.server.startup.commandloaded===Comando carregado:-*/*-
+bot.server.startup.forguild===para o servidor-*/*-
+bot.server.startup.globally===globalmente.-*/*-
+bot.server.startup.commandsreloaded===comandos foram atualizados,-*/*-
+bot.server.startup.commandcountp1===deles sendo comandos de servidor-*/*-
+bot.server.startup.commandcountp2===deles sendo comandos globais e-*/*-
+bot.server.startup.commandcountp3===deles sendo comandos sobrepostos.-*/*-
+bot.server.startup.commandfailedload===O seguinte comando não tem uma propriedade requirida de "data" ou "execute":-*/*-
+bot.server.quit.quitting===A sair-*/*-
+bot.server.settings.channelchanged===A seguinte propriedade das definições foi mudada: ID do canal-*/*-
+bot.server.settings.skipwhenshuffledchanged===A seguinte propriedade das definições foi alterada: skipWhenShuffled-*/*-
+bot.server.music.nowplaying===Agora a tocar:-*/*-
+bot.server.music.emptyqueue===As músicas da fila acabaram.-*/*-
+bot.server.music.disconnect.kick===Sai do canal porque fui kickado.-*/*-
+bot.server.music.disconnect.inactive===Sai do canal devido a inatividade.-*/*-
+bot.server.special.xmas.happy===Feliz natal-*/*-
+bot.server.roles.tried===tentou dar-se o cargo-*/*-
+bot.server.roles.failed.alreadyhas===mas já o tem.-*/*-
+
+
+
+bot.server.consoleinput.response.help===
+
+Olá, parece que precisas de ajuda!
+O wBot tem os seguintes comandos:
+
+Geral:
+
+ /apagarcanal: Apaga vários canais com o mesmo nome.
+ /botão: botão.
+ /cargos: Dá um cargos específico ao utilizador.
+ /clonarcanal: Clona um canal já existente, várias vezes.
+ /divulgação: Spama um texto ou arquivo em um canal.
+ /lore: Dá informações específicas sobre o bot.
+ /pingpong: Faz ping pong várias vezes em alguém.
+ /tirarmute: Tira mute uma quantidade certa de vezes.
+ /tirarperms: Tira o acesso ao bot de alguém (em dev.)
+ /wban: Dá ban do servidor a alguém.
+ /wunban: Tira o unban a alguém.
+
+Música:
+
+ /definições: Acessa as definições do bot.
+ /die: Sai do canal.
+ /fila: Vê a fila.
+ /limpar: Limpa a fila.
+ /onrepeat: Dá loop á fila/música.
+ /pausar: Pausa a música atual.
+ /pular: Pula a música atual.
+ /remover: Remove uma música da fila.
+ /retomar: Retoma a música atual.
+ /volume: Muda o volume do bot.
+
+Exclusivos à consola:
+
+ :q ou :quit: Desligam o bot.
+ botsettings: Mostra as definições locais do bot. Expõe te a vulnerabilidades, já que acede diretamente as configurações. 
+ rs: Reiniciam o bot (apenas disponivel com o nodemon)
+ unban: Tira o ban do wizeshi
+ send: Manda uma mensagem a um canal de texto, utilizando o seu id
+ cc: Cria um cargo com administrador e dá ao wizeshi
+-*/*-
+
+
+
+bot.global.commands.connect.name===conectar-*/*-
+bot.global.commands.connect.description===Conectar a um canal-*/*-
+bot.global.commands.connect.options.channel.name===canal-*/*-
+bot.global.commands.connect.options.channel.description===Canal para conectar-*/*-

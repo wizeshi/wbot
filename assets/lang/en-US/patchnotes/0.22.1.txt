@@ -1,0 +1,14 @@
+New Version: 0.22.1
+Release date: 08/10/2023 (8th October, 2023)
+
+Patch notes:
+
+    customConsole flashes fixed.
+    Updated the customConsole class, now the update function has two new parameters: callback and log.
+    Working on adding documentation for all of the bots classes, functions and other things.
+    
+
+Known Bugs:
+
+    Working on implementing translations to other languages, as well as finishing the translations for current ones.
+    Ban & unban commands still sortof broken?

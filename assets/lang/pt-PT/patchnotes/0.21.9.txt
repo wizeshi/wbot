@@ -1,0 +1,23 @@
+Nova versão: 0.21.9
+Data de lançamento: 04/10/2023 (4 de Outubro, 2023)
+
+Notas de Atualização:
+
+    Atualizado para o discord.js 14.9.0
+    Atualizado para o discord-player 6.1.1
+    Atualizado para o ytdl-core 4.11.4
+
+    Novas definições de idioma e o processo interno (atualmente só existe em en-US e pt-PT, ainda não foi totalmente implementado).
+    Adicionado um novo Ficheiro Global de Configurações (FCG), fará ser mais fácil de aceder as configurações.
+    Arranjados bugs relacionados com a atualização de módulos.
+    Atualizada a função de logs, mudado do formato DD-MM-YYYY para YYYY-MM-DD.
+    Substituido a função de checkChannel para o seu equivalenente no Ficheiro Global de Configurações (FCG).
+    A trabalhar na documentação do bot.
+    
+
+Bugs Conhecidos:
+
+    Comando da letra está estragado (a tentar arranjar)
+    A tentar arranjar implementações de outros idiomas, e também a acabar as traduções atuais.
+    Comandos de ban & unban ainda estragados?
+    Função de desbanir pela consola já arranjada, mas ainda existem um bugs nesse ficheiro.

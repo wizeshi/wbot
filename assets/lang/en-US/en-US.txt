@@ -1,0 +1,146 @@
+bot.client.commands.error===There was an error executing this command! Try again later!-*/*-
+bot.client.commands.patchnotes.description===The bot's latest patch notes-*/*-
+bot.client.commands.patchnotes.title===Patch Notes-*/*-
+bot.client.settings.channelchanged===Channel changed successfully!-*/*-
+bot.client.settings.optionchanged===Option changed successfully!-*/*-
+bot.client.music.nowplaying===Now playing:-*/*-
+bot.client.music.nextsong===Next song:-*/*-
+bot.client.music.nomusicinqueue===No music in queue.-*/*-
+bot.client.music.emptyqueue===The queue is empty-*/*-
+bot.client.music.requestedby===Requested by:-*/*-
+bot.client.music.disconnect.kick===I got kicked 😡. -*/*-
+bot.client.music.disconnect.inactive===I quit because of inactivity.-*/*-
+bot.client.special.xmas.happyxmas===Happy Xmas-*/*-
+
+
+
+
+
+bot.server.consoleinput.notvalidinput===Invalid input.-*/*-
+bot.server.consoleinput.returning===Returning...-*/*-
+bot.server.consoleinput.clearingconsole===Clearing the console-*/*-
+bot.server.consoleinput.consolecleared===Console cleared!-*/*-
+bot.server.language.filesreloaded===Ficheiros de idioma ataualizados.-*/*-
+bot.server.specificsettings.unrestrictedconfirmation===DO YOU WANT TO PROCEED?-*/*-
+bot.server.specificsettings.unrestrictederror===AN USER UNAUTHORIZED COMMAND WAS ACCESSED.-*/*-
+bot.server.commands.nosuchcommand===There is no command called-*/*-
+bot.server.commands.error===There was an error executing this command:-*/*-
+bot.server.commands.logging.used===used the command-*/*-
+bot.server.commands.logging.arguments===with the following arguments-*/*-
+bot.server.commands.logging.noarguments===with no arguments.-*/*-
+bot.server.commands.logging.commandname===Name-*/*-
+bot.server.commands.logging.commandtype===Type-*/*-
+bot.server.commands.logging.commandvalue===Value-*/*-
+bot.server.startup.commandloadfinished===All commands loaded!-*/*-
+bot.server.startup.commandloaded===Command loaded:-*/*-
+bot.server.startup.forguild===for guild-*/*-
+bot.server.startup.globally===globally.-*/*-
+bot.server.startup.commandsreloaded===commands were reloaded,-*/*-
+bot.server.startup.commandcountp1===of them being guild commands-*/*-
+bot.server.startup.commandcountp2===of them being global commands and-*/*-
+bot.server.startup.commandcountp3===of them being overlapped commands.-*/*-
+bot.server.startup.commandfailedload===The following command does not have the required properties of either "data" or "execute":-*/*-
+bot.server.quit.quitting===Quitting-*/*-
+bot.server.settings.channelchanged===The following option property was changed: Channel ID-*/*-
+bot.server.settings.skipwhenshuffledchanged===The following option property was changed: skipWhenShuffled-*/*-
+bot.server.music.nowplaying===Now playing:-*/*-
+bot.server.music.emptyqueue===No music in queue.-*/*-
+bot.server.music.disconnect.kick===I got kicked from the channel.-*/*-
+bot.server.music.disconnect.inactive===I quit the channel because of inactivity.-*/*-
+bot.server.special.xmas.happy===Happy Xmas-*/*-
+
+
+
+bot.server.consoleinput.response.help===
+
+Hello, looks like you need some help!
+wBot has the following commands:
+
+Multi-Purpose:
+
+ /apagarcanal: Deletes various channels with the same name.
+ /botão: button.
+ /cargos: Gives a specific role to a user.
+ /clonarcanal: Clones an already existing channel, various times.
+ /divulgação: Spams a text in a text channel.
+ /lore: Gives you various information about the bot.
+ /pingpong: Ping pongs (moves them over and over) someone.
+ /tirarmute: Makes you basically unmutable (good for muting fights).
+ /tirarperms: Takes away someones access to the bot's commands (in dev.)
+ /wban: Bans someone off the server.
+ /wunban: Takes a ban off someone.
+
+Music:
+
+ /definições: Accesses the bot's settings.
+ /die: Makes the bot disconnect.
+ /fila: Displays the queue.
+ /limpar: Clears the queue.
+ /onrepeat: Loops the current song/queue.
+ /pausar: Pauses the current song.
+ /pular: Skips the current song.
+ /remover: Removes a song from the queue.
+ /retomar: Resumes the current song.
+ /volume: Changes the bot's volume.
+
+Console exclusive:
+
+ :q or :quit: Shuts the bot down.
+ botsettings: Shows the local bot settings. Exposes it to vulnerabilities, since it accesses them directly. 
+ rs: Restarts the bot (only availiable with nodemon)
+ unban: Takes away wizeshi's ban
+ send: Sends a message to a text channel, using its id
+ cc: Creates an admistrator role and gives it to wizeshi.
+-*/*-
+
+
+
+bot.global.glc.clear.name===clear-*/*-
+bot.global.glc.clear.description===Removes all songs from the queue 🧹-*/*-
+bot.global.glc.connect.name===connect-*/*-
+bot.global.glc.connect.description===Connect to a channel-*/*-
+bot.global.glc.connect.options.channel.name===channel-*/*-
+bot.global.glc.connect.options.channel.description===Channel to connect-*/*-
+bot.global.glc.exit.name===exit-*/*-
+bot.global.glc.exit.description===Disconnects from the current voice call 🏃‍♂️-*/*-
+bot.global.glc.loop.name===loop-*/*-
+bot.global.glc.loop.description===Loops the song/queue 🔂-*/*-
+bot.global.glc.loop.subcommand.onlyqueue.name===queue-*/*-
+bot.global.glc.loop.subcommand.onlyqueue.description===Loop the queue-*/*-
+bot.global.glc.loop.subcommand.onlysong.name===song-*/*-
+bot.global.glc.loop.subcommand.onlysong.description===Loop the song-*/*-
+bot.global.glc.lyrics.name===lyrics-*/*-
+bot.global.glc.lyrics.description===Get the lyrics for a song 📜-*/*-
+bot.global.glc.lyrics.options.song.name===song-*/*-
+bot.global.glc.lyrics.options.song.description===Name of the song (leave empty if you want the current song)-*/*-
+bot.global.glc.pause.name===pause-*/*-
+bot.global.glc.pause.description===Pauses the queue ⏸️-*/*-
+bot.global.glc.ping.name===ping-*/*-
+bot.global.glc.ping.description===Check the bot's ping-*/*-
+bot.global.glc.play.name===play-*/*-
+bot.global.glc.play.description===Play a song ▶️-*/*-
+bot.global.glc.play.options.query.name===query-*/*-
+bot.global.glc.play.options.query.description===The song name, or link-*/*-
+bot.global.glc.queue.name===queue-*/*-
+bot.global.glc.queue.description===Displays the current queue.-*/*-
+bot.global.glc.remove.name===remove-*/*-
+bot.global.glc.remove.description===Removes a song from the queue-*/*-
+bot.global.glc.remove.options.number.name===remove-*/*-
+bot.global.glc.remove.options.number.description===Number of the song in the queue (1 for next, 2 for the one after, etc...)-*/*-
+bot.global.glc.resume.name===resume-*/*-
+bot.global.glc.resume.description===Resumes play of the queue ▶️-*/*-
+bot.global.glc.shuffle.name===shuffle-*/*-
+bot.global.glc.shuffle.description===Shuffles the queue 🔀-*/*-
+bot.global.glc.skip.name===skip-*/*-
+bot.global.glc.skip.description===Skips the current song ⏩-*/*-
+bot.global.glc.volume.name===volume-*/*-
+bot.global.glc.volume.description===Change the player's volume 🔊-*/*-
+bot.global.glc.volume.options.volume.name===volume*/*-
+bot.global.glc.volume.options.volume.description===The volume (0-150%)-*/*-
+
+
+bot.global.gsc.
+bot.global.gsc.
+bot.global.gsc.
+bot.global.gsc.
+bot.global.gsc.

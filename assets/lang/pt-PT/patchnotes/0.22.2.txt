@@ -1,0 +1,14 @@
+Nova versão: 0.22.2
+Data de lançamento: 15/10/2023 (15 de Outubro, 2023)
+
+Notas de atualização:
+
+    Sistema de comandos novinho em folha; Agora os comandos podem ser globais (ou seja, todos os servidores) ou especificos ao servidor (isto demorou 4 horas sem parar para fazer)
+    deploy-commands.ts discardado, agora cada vez que o bot liga ele verifica e renova os comandos, com os nomes mudados caso o idioma seja diferente.
+    A tentar introduzir documentação para as classes, funções e outras coisas do bot.
+    
+
+Bugs Conhecidos:
+
+    A tentar arranjar implementações de outros idiomas, e também a acabar as traduções atuais.
+    Comandos de ban & unban ainda estragados?

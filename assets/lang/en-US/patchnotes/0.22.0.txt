@@ -1,0 +1,16 @@
+New Version: 0.22.0
+Release date: 05/10/2023 (5th October, 2023)
+
+Patch notes:
+
+    New customConsole class implemented, replacing the customConsoleLog function.
+    New customConsole.update function: Instead of creating new messages in the console, it uses an array of characters to, over a select period of time, update the message.
+    Ready unban function fully fixed for the time being
+    Lyrics command fixed, just had to create new pages if the text was too long (really discord?)
+    
+
+Known Bugs:
+
+    Working on implementing translations to other languages, as well as finishing the translations for current ones.
+    customConsole.update sometimes flashes? Maybe its because the updates are too fast?
+    Ban & unban commands still sortof broken?
