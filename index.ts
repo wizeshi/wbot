@@ -97,7 +97,7 @@ client.on('ready', async () => {
     let sumOfCurrent = mainCurrentVersionInt + subCurrentVersionInt + smallCurrentVersionInt
 
     if (sumOfLatest > sumOfCurrent) {
-        cc.log(`Your version is outdated!\n    Latest version: ${latestVersion}\n    Current Version: ${currentVersion}\n    ${latestVersion} patch notes: https://github.com/wizeshi/wbot/blob/master/assets/lang/${lang.getServerLang()}/patchnotes/${latestVersion}.txt`, "warningYellow", "warn")
+        cc.log(`Your version is outdated!\n    Latest version: ${latestVersion}\n    Current Version: ${currentVersion}\n    ${latestVersion} changelog: https://github.com/wizeshi/wbot/blob/master/assets/lang/${lang.getServerLang()}/patchnotes/${latestVersion}.md\n    Please update to ${latestVersion} ASAP, since it might include security or feature patches!`, "warningYellow", "warn")
     }
 
     guildCommands.forEach((values, key, map) => { let guild = client.guilds.cache.get(key); bot.uploadGuildToDatabase((guild as DiscordJS.Guild)) })

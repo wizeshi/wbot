@@ -24,7 +24,8 @@ export function xmasCheck(interaction: ChatInputCommandInteraction) {
         isXmas = true
 
         if (interaction.deferred || interaction.replied) {
-            interaction.followUp({ content: `${lang.getClientText(cf.special.xmas.happyxmas)}, <@${interaction.user.id}>! 🎄❄️`, ephemeral: true })
+            return interaction.followUp({ content: `${lang.getClientText(cf.special.xmas.happyxmas)}, <@${interaction.user.id}>! 🎄❄️`, ephemeral: true })
         }
+    
     }
 }
