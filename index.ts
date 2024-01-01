@@ -10,6 +10,8 @@ import { wBot } from './global/settings/botSpecificSettings'
 import { botLang, cfFile, gfFile, sfFile } from './global/settings/language'
 import { cc } from './global/funcs/customConsole'
 import rpc from '@xhayper/discord-rpc'
+import ngrok from '@ngrok/ngrok'
+import { handleServerButtons } from './commands/788838541727498240/server/handleButtons'
 
 declare global {
     var player: Player;
@@ -27,6 +29,8 @@ global.lang = new botLang('pt-PT', 'en-US', 'pt-PT')
 global.bot = new wBot()
 
 dotenv.config()
+
+export const nigrok = ngrok.authtoken(process.env.NGROK_AUTHTOKEN as string)
 
 async function getLatestVersion() {
     const url1 = "https://raw.githubusercontent.com/wizeshi/wbot/main/package.json"
@@ -232,9 +236,13 @@ onReady(client)
 client.on('interactionCreate', async interaction => {
     if (interaction.isStringSelectMenu()) {
         return respostainfo(interaction, client)
-    } /* else if (interaction.isButton()) {
-        return respostaBotao(interaction, client)
-    } */
+    } else if (interaction.isButton()) {
+        let buttonid = interaction.customId 
+
+        if (buttonid == "toggleserver" || buttonid == "togglemap") {
+            return await handleServerButtons(interaction)
+        }
+    } 
     if (!interaction.isChatInputCommand()) {
         return
     }
