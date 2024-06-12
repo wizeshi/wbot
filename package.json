@@ -18,7 +18,7 @@
     "@ngrok/ngrok": "^0.9.1",
     "@xhayper/discord-rpc": "^1.0.23",
     "discord-player": "^6.1.1",
-    "discord.js": "^14.9.0",
+    "discord.js": "^14.15.2",
     "dotenv": "^16.0.3",
     "ffmpeg-static": "^5.1.0",
     "log-update": "^4.0.0",
@@ -30,6 +30,7 @@
     "ytdl-core": "^4.11.4"
   },
   "devDependencies": {
+    "@types/node": "^20.12.12",
     "@types/pidusage": "^2.0.3"
   }
 }
