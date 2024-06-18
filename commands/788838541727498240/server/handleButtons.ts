@@ -4,16 +4,16 @@ import { cc } from '../../../global/funcs/customConsole'
 
 
 export async function handleServerButtons(interaction: DiscordJS.ButtonInteraction) {
-    let serverDefaultPort = process.env.SERVER_PORT || 25565
-    let mapDefaultPort = process.env.MAP_PORT || 8100
+    let serverDefaultPort = process.env.SERVER_PORT || 30679
+    /* let mapDefaultPort = process.env.MAP_PORT || 8100 */
     
     let ngrokListeners = await ngrok.listeners()
     
     let isServerOnline = false
-    let isMapOnline = false
+    /* let isMapOnline = false */
 
     let serverListener: ngrok.Listener
-    let mapListener: ngrok.Listener
+    /* let mapListener: ngrok.Listener */
 
     ngrokListeners.forEach((lsnr, ix) => {
         let lsnrMetadata = JSON.parse(lsnr.metadata())
@@ -21,10 +21,10 @@ export async function handleServerButtons(interaction: DiscordJS.ButtonInteracti
         if (lsnrMetadata.type == "mainserver")  {
             serverListener = lsnr
             isServerOnline = true
-        } else if (lsnrMetadata.type == "map") {
+        } /* else if (lsnrMetadata.type == "map") {
             mapListener = lsnr
             isMapOnline = true
-        } else {
+        } */ else {
             //pass
         }
     })
@@ -61,7 +61,7 @@ export async function handleServerButtons(interaction: DiscordJS.ButtonInteracti
 
             break
 
-        case 'togglemap':
+        /* case 'togglemap':
             if (!isMapOnline) {
                 mapListener = await ngrok.forward({
                     addr: mapDefaultPort,
@@ -82,7 +82,7 @@ export async function handleServerButtons(interaction: DiscordJS.ButtonInteracti
 
                 isMapOnline = false
             }
-            break
+            break */
     }
 
         
@@ -93,17 +93,17 @@ export async function handleServerButtons(interaction: DiscordJS.ButtonInteracti
             .setCustomId("toggleserver")
             .setStyle(isServerOnline ? ButtonStyle.Danger : ButtonStyle.Success )
             .setLabel(isServerOnline ? "Desligar o Server" : "Ligar o Server"),
-        new ButtonBuilder()
+        /* new ButtonBuilder()
             .setCustomId("togglemap")
             .setStyle(isMapOnline ? ButtonStyle.Danger : ButtonStyle.Success )
-            .setLabel(isMapOnline ? "Desligar o Live Map" : "Ligar o Live Map")
+            .setLabel(isMapOnline ? "Desligar o Live Map" : "Ligar o Live Map") */
     )
 
     embed.addFields(
         //@ts-ignore
         { name: "IP do Servidor", value: `${isServerOnline ? serverListener.url()?.replace("tcp://", "") : "O server ainda não está ligado.\n\n"}` },
         //@ts-ignore
-        { name: "IP do Live Map", value: `${isMapOnline ? mapListener.url()?.replace("tcp://", "") : "O mapa ainda não está ligado."}` }
+        /* { name: "IP do Live Map", value: `${isMapOnline ? mapListener.url()?.replace("tcp://", "") : "O mapa ainda não está ligado."}` } */
     )
 
     interaction.update({
